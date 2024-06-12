@@ -1,6 +1,5 @@
 ﻿using AspNetCore.Reporting;
 using DotNet8.WebApi.Models;
-using GroceryDealingSystem.BackendApi.Features;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DotNet8.WebApi.Features

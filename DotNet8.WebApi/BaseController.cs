@@ -2,7 +2,7 @@
 using DotNet8.WebApi.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace GroceryDealingSystem.BackendApi.Features
+namespace DotNet8.WebApi
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -27,7 +27,7 @@ namespace GroceryDealingSystem.BackendApi.Features
 
             if (requestModel.ReportType == EnumFileType.Pdf)
             {
-                ReportResult result = lr.Execute(RenderType.Pdf, extension, 
+                ReportResult result = lr.Execute(RenderType.Pdf, extension,
                                         requestModel.Parameters, mimetype);
                 return File(result.MainStream, "application/pdf", $"{requestModel.ExportFileName}.pdf");
             }
