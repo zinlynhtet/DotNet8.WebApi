@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BlogReportDataSet" targetNamespace="http://tempuri.org/BlogReportDataSet.xsd" xmlns:mstns="http://tempuri.org/BlogReportDataSet.xsd" xmlns="http://tempuri.org/BlogReportDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="BlogReportDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="BlogReportDataSet" msprop:Generator_DataSetName="BlogReportDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BlogReport" msprop:Generator_RowEvHandlerName="BlogReportRowChangeEventHandler" msprop:Generator_RowDeletedName="BlogReportRowDeleted" msprop:Generator_RowDeletingName="BlogReportRowDeleting" msprop:Generator_RowEvArgName="BlogReportRowChangeEvent" msprop:Generator_TablePropName="BlogReport" msprop:Generator_RowChangedName="BlogReportRowChanged" msprop:Generator_RowChangingName="BlogReportRowChanging" msprop:Generator_TableClassName="BlogReportDataTable" msprop:Generator_RowClassName="BlogReportRow" msprop:Generator_TableVarName="tableBlogReport" msprop:Generator_UserTableName="BlogReport">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BlogId" msprop:Generator_ColumnPropNameInRow="BlogId" msprop:Generator_ColumnPropNameInTable="BlogIdColumn" msprop:Generator_ColumnVarNameInTable="columnBlogId" msprop:Generator_UserColumnName="BlogId" type="xs:int" minOccurs="0" />
+              <xs:element name="BlogTitle" msprop:Generator_ColumnPropNameInRow="BlogTitle" msprop:Generator_ColumnPropNameInTable="BlogTitleColumn" msprop:Generator_ColumnVarNameInTable="columnBlogTitle" msprop:Generator_UserColumnName="BlogTitle" type="xs:string" minOccurs="0" />
+              <xs:element name="BlogAuthor" msprop:Generator_ColumnPropNameInRow="BlogAuthor" msprop:Generator_ColumnPropNameInTable="BlogAuthorColumn" msprop:Generator_ColumnVarNameInTable="columnBlogAuthor" msprop:Generator_UserColumnName="BlogAuthor" type="xs:string" minOccurs="0" />
+              <xs:element name="BlogContent" msprop:Generator_ColumnPropNameInRow="BlogContent" msprop:Generator_ColumnPropNameInTable="BlogContentColumn" msprop:Generator_ColumnVarNameInTable="columnBlogContent" msprop:Generator_UserColumnName="BlogContent" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
