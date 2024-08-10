@@ -1,4 +1,4 @@
-﻿using DotNet8.WebApi.Models;
+﻿namespace DotNet8.WebApi.Models;
 
 public class ReportModel<T>
 {
