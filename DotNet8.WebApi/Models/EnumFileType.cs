@@ -1,8 +1,7 @@
-﻿namespace DotNet8.WebApi.Models
+﻿namespace DotNet8.WebApi.Models;
+
+public enum EnumFileType
 {
-    public enum EnumFileType
-    {
-        Pdf,
-        Excel
-    }
+    Pdf,
+    Excel
 }
